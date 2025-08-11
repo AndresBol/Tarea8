@@ -5,8 +5,6 @@
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <link href="css/style.css" type="text/css" rel="stylesheet" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="scr/calculos.js"></script>
-    <script src="scr/countries.js"></script>
 </head>
 <body>
     <div id="main">
@@ -59,9 +57,9 @@
                 
                 <label id="lblSeguro" onclick="MensajeTipoSeguro()">Seguro :</label>
                 <select class="combos" id="seguro" name="seguro">
-                    <option id="PBO" value="10.45" selected="selected">Protección Básica Obligatoria(PBO)</option>
-                    <option id="PED" value="15.50">Protección Extendida de Daños(PED)</option>
-                    <option id="PGM" value="18.25">Protección Gasto Médicos(PGM)</option>
+                    <option id="PBO" value="5.45" selected="selected">Protección Básica Obligatoria(PBO)</option>
+                    <option id="PED" value="9.50">Protección Extendida de Daños(PED)</option>
+                    <option id="PGM" value="11.25">Protección Gasto Médicos(PGM)</option>
                 </select>
 
                 <label for="dias">Días :</label>
@@ -89,5 +87,7 @@
         </div>
         <br class="spacer" />
     </div>
+    <script src="scr/calculos.js"></script>
+    <script src="scr/countries.js"></script>
 </body>
 </html>
